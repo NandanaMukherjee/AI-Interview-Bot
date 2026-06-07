@@ -1,0 +1,14 @@
+# Block dependency folders in both spaces
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Block your private keys and environment configuration files
+.env
+backend/.env
+frontend/.env
+
+# Block build outputs and system garbage files
+dist/
+build/
+.DS_Store

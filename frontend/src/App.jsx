@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API_BASE = "http://localhost:5000"; // Synchronized to match standard node backend output
+const API_BASE = "https://ai-interview-bot-1-pgzl.onrender.com"; // Synchronized to match standard node backend output
 
 export default function App() {
   // AUTH
